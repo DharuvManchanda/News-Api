@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0eaceeb4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Navbar">
+       <div class="leftNav">
+
+            <img class="logo" src="orange.png" alt="logof" onclick="reload()">
+       
+       </div> 
+       <div class="middleNav" id="middle-Nav">
+            <ul class="navList">
+            <li><a href="#" id="Sports" onclick="onNavItemClick('Sports')">Sports</a></li>
+            <li><a href="#" id="Finance" onclick="onNavItemClick('Finance')">Finance</a></li>
+            <li><a href="#" id="Politics" onclick="onNavItemClick('Politics')">Politics</a></li>
+            <li><a href="#" id="Health" onclick="onNavItemClick('Health')">Health</a></li>
+        </ul>
+        <label for="search"></label>
+        <input type="text" id="search" placeholder="Enter Text For Search">
+    <button class="button" id="searchButton">  <a href="#"></a>Search</button>
+       </div>
+       <i class="fa-solid fa-bars" id="toggle"></i>
+ </div>
+
+<!-- Cards Container -->
+<div class="container" id="container">
+   
+</div>
+<template id="cards">
+    <div class="cards">
+        <a href="#">
+            <img class="images" src="Screenshot 2023-07-24 135754.png" alt="image" id="cardsImg">
+        </a>
+        <div class="cardsText">
+            <h3 id="headingText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio autem hic, optio quibusd.</h3>
+            <p id="dateText"><small>BBC News. 32/2/2003, 10 pm</small></p>
+            <p id="descriptionText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consectetur veniam assumenda similique, nihil quisquam magni quaerat quasi repellendus sunt illum, molestiae veritatis quod eius possimus velit aut reiciendis dicta quam asperiores odit, incidunt ex inventore. Adipisci nesciunt ducimus suscipit eum praesentium laudantium sapiente, porro iusto eos architecto minus. Aliquam!</p>
+             </div>
+       </div>
+</template>
+    <script src="script.js"></script>
+</body>
+</html>
